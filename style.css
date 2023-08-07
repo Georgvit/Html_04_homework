@@ -14,7 +14,7 @@ header {
     display: grid;
     grid-template-columns: 15% 35% 35% 15%;
     width: 100%;
-    height: 35px;
+    height: 40px;
     background: #222;
 }
 
@@ -576,7 +576,7 @@ footer {
         grid-row: 1;
         grid-template-columns: 5% 45% 45% 5%;
         width: 100%;
-        height: 25px;
+        height: 30px;
     }
     .offer {
         grid-template-columns: 30% 30% 30%;
@@ -797,7 +797,7 @@ footer {
     header {
         grid-template-columns: 5% 45% 45% 5%;
         width: 100%;
-        height: 25px;
+        height: 30px;
     }
     .offer {
         grid-template-columns: 30% 30% 30%;
@@ -892,7 +892,7 @@ footer {
     footer {
         display: grid;
         grid-row: 5;
-        grid-template-rows: 55% 35% 5%;
+        grid-template-rows: 48% 35% 5%;
         width: 100%;
     }
     .footerMenu {
@@ -907,11 +907,11 @@ footer {
     }
     .footerMenuImg1 {
         display: grid;
-        grid-template-rows: 15% 20% 20% 20%;
+        grid-template-rows: 5% 18% 18% 28%;
         grid-row: 1;
         grid-column: 2;
         justify-items: center;
-        align-items: end;
+        align-items: center;
         gap: 2%;
     }
     .imgFooter {
@@ -932,20 +932,20 @@ footer {
     }
     .footerMenuImg2 {
         display: grid;
-        grid-template-rows: 15% 20% 20% 20%;
+        grid-template-rows: 5% 18% 18% 28%;
         grid-row: 1;
         grid-column: 3;
         justify-items: center;
-        align-items: end;
+        align-items: center;
         gap: 2%;
     }
     .footerMenuImg3 {
         display: grid;
-        grid-template-rows: 15% 20% 20% 20%;
+        grid-template-rows: 5% 18% 18% 28%;
         grid-row: 1;
         grid-column: 4;
         justify-items: center;
-        align-items: end;
+        align-items: center;
         gap: 2%;
     }
     .footerSubscribe {
@@ -1040,7 +1040,7 @@ footer {
         grid-template-columns: 5% 45% 45% 5%;
         grid-row: 1;
         width: 100%;
-        height: 25px;
+        height: 30px;
     }
     .headImg {
         width: 22px;
@@ -1051,9 +1051,25 @@ footer {
         height: 20px;
     }
     .one {
+        display: grid;
+        grid-template-columns: 100%;
         width: 100%;
         height: 100%;
         grid-row: 2;
+        align-content: center;
+    }
+    .imgOneCnt {
+        grid-column: 2;
+        grid-template-rows: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .oneCnt {
+        grid-row: 1;
+        grid-column: 1;
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
     }
     .oneCntImg {
         width: 100%;
